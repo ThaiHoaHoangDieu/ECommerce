@@ -9,7 +9,7 @@ const ProductCart = (props) => {
     <div>
       <div
         className={` ${
-          location.pathname === '/ourstore' ? `col-${grid}` : 'col-3'
+          location.pathname === '/ourstore' ? `gr-${grid}` : 'col-3'
         }`}
       >
         <Link className="product-card position-relative">
