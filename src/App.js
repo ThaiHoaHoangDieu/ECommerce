@@ -15,6 +15,10 @@ import Forgotpassword from './pages/Forgotpassword';
 import Signup from './pages/Signup';
 import ResetPassword from './pages/ResetPassword';
 import SingelBlog from './pages/SingelBlog';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import RefurnPolicy from './pages/RefurnPolicy';
+import ShippingPolicy from './pages/ShippingPolicy';
+import TermsandConditions from './pages/TermsandConditions';
 
 function App() {
   return (
@@ -35,6 +39,10 @@ function App() {
             <Route path="signup" element={<Signup />} />
             <Route path="cart" element={<Cart />} />
             <Route path="blog/:id" element={<SingelBlog />} />
+            <Route path="privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="refurn-policy" element={<RefurnPolicy />} />
+            <Route path="shippingpolicy" element={<ShippingPolicy />} />
+            <Route path="terms-conditions" element={<TermsandConditions />} />
           </Route>
         </Routes>
       </BrowserRouter>
