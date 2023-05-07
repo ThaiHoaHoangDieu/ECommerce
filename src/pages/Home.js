@@ -209,11 +209,13 @@ const Home = () => {
           <div className="row">
             <div className="col-12">
               <h3 className="section-heading">Featured Collection</h3>
-              <ProductCart />
-              <ProductCart />
-              <ProductCart />
-              <ProductCart />
             </div>
+          </div>
+          <div className="row">
+            <ProductCart />
+            <ProductCart />
+            <ProductCart />
+            <ProductCart />
           </div>
         </div>
       </section>
