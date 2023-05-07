@@ -192,7 +192,7 @@ const SingleProduct = () => {
                   <div className="d-flex gap-10 algin-items-center my-3">
                     <h3 className="product-heading">Copy Product Link:</h3>
                     <a
-                      href="javascript:void(0)"
+                      href="/javascript:void(0)"
                       onClick={() => {
                         copyToClipboard(
                           "https://cdn.shopify.com/s/files/1/0024/5084/9907/files/Bremont_KingCharlesIII_Lifestyle_3_m_v2.webp?v=1682421680&width=1540'"

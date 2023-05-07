@@ -22,7 +22,7 @@ const SingelBlog = () => {
                   A Beautiful Sunday Morning Renaissance
                 </h3>
                 <img
-                  src="images/blog-1.jpg"
+                  src="/images/blog-1.jpg"
                   className="img-fluid w-100 my-4"
                   alt="blog"
                 />
